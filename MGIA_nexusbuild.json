@@ -1,0 +1,108 @@
+{
+  "items" : [ {
+    "id" : "bWF2ZW4tcmVsZWFzZXM6YTI2YTA0MWJmMTQ1MjczMThiMTI5MzJmMDkxYWJlZTY",
+    "repository" : "maven-releases",
+    "format" : "maven2",
+    "group" : "com.MBRHE.GrantInspection",
+    "name" : "1.0",
+    "version" : "2.0",
+    "assets" : [ {
+      "downloadUrl" : "http://localhost:8081/repository/maven-releases/com/MBRHE/DemoSwiftUI/nexus-proxy/1.5/nexus-proxy-1.5.jar",
+      "path" : "com/MBRHE/DemoSwiftUI/nexus-proxy/1.5/nexus-proxy-1.5.jar",
+      "id" : "bWF2ZW4tcmVsZWFzZXM6Mjk1ZDM1NGI3MTNhMDkyNDhjZmFjNzE1ZDcxMzM0Zjg",
+      "repository" : "maven-releases",
+      "format" : "maven2",
+      "checksum" : {
+        "sha1" : "6fa8a1257e905051f8d46f4a131238009db50501",
+        "md5" : "3f84457094bde5e4f1495eda5812f2de"
+      }
+    }, {
+      "downloadUrl" : "http://localhost:8081/repository/maven-releases/com/MBRHE/DemoSwiftUI/nexus-proxy/1.5/nexus-proxy-1.5.jar.md5",
+      "path" : "com/MBRHE/DemoSwiftUI/nexus-proxy/1.5/nexus-proxy-1.5.jar.md5",
+      "id" : "bWF2ZW4tcmVsZWFzZXM6NjdiZDdkNmMzM2JkYmNmMjBiN2NmYjZkZGViMGY1Y2I",
+      "repository" : "maven-releases",
+      "format" : "maven2",
+      "checksum" : {
+        "sha1" : "4c69671e491743e85a0f58365fea5e36a8d49e27",
+        "md5" : "31e3c299071db35b4db9a2eb33b2a269"
+      }
+    } ]
+  }, {
+    "id" : "bWF2ZW4tcmVsZWFzZXM6NGRhN2E3YWJiMGI0ODIwM2U3NjYzZWM1ODE4OTcxNWY",
+    "repository" : "maven-releases",
+    "format" : "maven2",
+    "group" : "HAI",
+    "name" : "1.0",
+    "version" : "2.0",
+    "assets" : [ {
+      "downloadUrl" : "http://localhost:8081/repository/maven-releases/HAI/1.0/1.1/1.0-1.1.ipa",
+      "path" : "HAI/1.0/1.1/1.0-1.1.ipa",
+      "id" : "bWF2ZW4tcmVsZWFzZXM6Mjk2ZDhiZGViMmE2YWRiMzk0ZjQ1ZDAwMTY3ODZmOTM",
+      "repository" : "maven-releases",
+      "format" : "maven2",
+      "checksum" : {
+        "sha1" : "61e5575b2269ef7db8d60c427adbf16fa9e3486b",
+        "md5" : "dd344f1b91d88d08e80ca6e50a32f50c"
+      }
+    }, {
+      "downloadUrl" : "http://localhost:8081/repository/maven-releases/HAI/1.0/1.1/1.0-1.1.ipa.md5",
+      "path" : "HAI/1.0/1.1/1.0-1.1.ipa.md5",
+      "id" : "bWF2ZW4tcmVsZWFzZXM6YmNlMTdjNmI1ODM3MmU3MWU2NDA4OTcyM2MzNjNkZWU",
+      "repository" : "maven-releases",
+      "format" : "maven2",
+      "checksum" : {
+        "sha1" : "713858b8c893ef5737ee74931c67ece8d3fa0961",
+        "md5" : "7847bfbf5f6a5c7301171411562c9db3"
+      }
+    }, {
+      "downloadUrl" : "http://localhost:8081/repository/maven-releases/HAI/1.0/1.1/1.0-1.1.ipa.sha1",
+      "path" : "HAI/1.0/1.1/1.0-1.1.ipa.sha1",
+      "id" : "bWF2ZW4tcmVsZWFzZXM6ZDZjZDUzNjk5ZmE0YjA1ZTZlNDdkNjZmZTliZDc1NDQ",
+      "repository" : "maven-releases",
+      "format" : "maven2",
+      "checksum" : {
+        "sha1" : "4666108125e4e0c4bd1aaf5fefa1a796a5d98377",
+        "md5" : "27f5514ab245ee828d729dbec513076c"
+      }
+    } ]
+  }, {
+    "id" : "bWF2ZW4tcmVsZWFzZXM6NmRhZGI4NDQxNzdkZGNjNmYzY2Y3YmNkMDVmMmU3OTM",
+    "repository" : "maven-releases",
+    "format" : "maven2",
+    "group" : "HAI-DiawiLink",
+    "name" : "1.4.0",
+    "version" : "1.0",
+    "assets" : [ {
+      "downloadUrl" : "http://localhost:8081/repository/maven-releases/HAI-DiawiLink/1.0/1.0/1.0-1.0..txt",
+      "path" : "HAI-DiawiLink/1.0/1.0/1.0-1.0..txt",
+      "id" : "bWF2ZW4tcmVsZWFzZXM6YTg3NjkwYjU5YjRkNGNkNzVlNzk5M2QzNDQ2N2U5ODE",
+      "repository" : "maven-releases",
+      "format" : "maven2",
+      "checksum" : {
+        "sha1" : "060069b1b29f2159875e3b456e628d21500e4fa3",
+        "md5" : "8785b398d864fa2fff8fcd67f4963c67"
+      }
+    }, {
+      "downloadUrl" : "http://localhost:8081/repository/maven-releases/HAI-DiawiLink/1.0/1.0/1.0-1.0..txt.md5",
+      "path" : "HAI-DiawiLink/1.0/1.0/1.0-1.0..txt.md5",
+      "id" : "bWF2ZW4tcmVsZWFzZXM6YzY5MzIwOGM0Y2RmODRiNGU1OTNmOTcyN2QyN2IxNTM",
+      "repository" : "maven-releases",
+      "format" : "maven2",
+      "checksum" : {
+        "sha1" : "f60ed439f7f247af81b3950244d418a06f37dfac",
+        "md5" : "a24b006f1cddc830bcf1de8ebaec9f5b"
+      }
+    }, {
+      "downloadUrl" : "http://localhost:8081/repository/maven-releases/HAI-DiawiLink/1.0/1.0/1.0-1.0..txt.sha1",
+      "path" : "HAI-DiawiLink/1.0/1.0/1.0-1.0..txt.sha1",
+      "id" : "bWF2ZW4tcmVsZWFzZXM6Mjk1ZDM1NGI3MTNhMDkyNDQwZTMzOThmMWRkOGY0MGE",
+      "repository" : "maven-releases",
+      "format" : "maven2",
+      "checksum" : {
+        "sha1" : "d5ba00629585d24a171e255a3e8b28050dc5027e",
+        "md5" : "1deea14d6cb12310b3231c6b1aa0b606"
+      }
+    } ]
+  } ],
+  "continuationToken" : null
+}

@@ -1,0 +1,123 @@
+<!-- <div class="section hero">
+  <div class="container">
+    <div class="row">
+      <div class="one-half column" div style="width:100%; text-align:center;">
+        <h5 class="">MBRHE Enterprise In-House App distribution | Engineering-Payments App</h6>
+          <a href="itms-services://?action=download-manifest&url=https://internalapps.mrhecloud.com/internalapps/Engineering_Payments/manifest.plist"><img src="app_icon.png" width="82" height="86" title="Download Engineering-Payments App" alt="Download Engineering-Payments App"></a>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<html lang="en">
+<head>
+  <!-- <title>Bootstrap Example</title> -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="../CSS/Custom.css">
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+</head>
+<body>
+  
+<div class="container">
+<div class="row"> 
+<div class="col-md-12">
+  <div class="col-md-12" >
+<img src="../Images/MBRHE_APP_BANNER.png" style="width:100%;"/>
+</div>
+<div class="col-md-12 bgborder"> 
+</div>
+<!-- <div class="col-md-12 appDetailContainer">
+  <div class="appiconDetails">
+    <img src="app_icon.png" style="width:70px;height:70px;"/>
+  </div> 
+</div> -->
+<div class="col-md-12 col-xs-12 row appDetailContainer bgborder1">
+<div class="col-md-5 col-sm-12">
+  <span style="float:left;"><img src="../Images/app_icon.png" style="margin-left:11%;height:70px"/></span>
+  <span style="padding:4%;font-size:17px;align-items: center;display:flex">Tracking and Monitoring System</span>
+  </div>
+
+  <div class="col-md-3 col-xs-6 col-sm-12" style="padding:13px; float:right;">
+	  <div class="col-md-6 col-xs-6 col-sm-5"> 
+		 <a href="../SSL_cert_UserGuide.pdf" class="hyper" style="color: black;" target="_blank">
+			<img src="../Images/userguide_icon.png" style="height:24px;padding-left: 15%;" />
+			<div style="margin-top:5%;">
+			   User Guide
+			</div>
+		 </a>
+    </div>
+    <a href="../app-release.apk" class="hyper" style="color: black;">
+	  <div class="col-md-6 col-xs-6 col-sm-5" id='isDownloadNeeded'> 
+	  <img src="../Images/download_icon.png" style="height:24px;padding-left: 15%"/>
+	  <div style="margin-top:5%;">
+    Download</div>
+    </a>
+  </div>
+  <a href="itms-services://?action=download-manifest&url=https://internalapps.mrhecloud.com/internalapps/Grant_Inspection/manifest.plist" class="hyper" style="color: black;">
+  <div class="col-md-6 col-xs-6 col-sm-5" id='isUpgradeNeeded' style="display:none;"> 
+	  <img src="../Images/upgrade_icon.png" style="height:24px;padding-left: 15%"/>
+	  <div style="margin-top:5%;">
+		Upgrade
+    </div>
+    </a>
+  </div>
+</div>
+  </div>
+</div>       
+</div>
+</div>
+</body>
+</html>
+<style>
+
+
+</style>
+<script>
+$(function() {
+  var currentUrlParam = $(location).attr("href");
+  var isIpaDownloadNeeded = false;
+
+  if (currentUrlParam.indexOf("isUpgrade=")!=-1){
+    isIpaDownloadNeeded = currentUrlParam.split("isUpgrade=")[1];
+  }
+  else{
+    isIpaDownloadNeeded = false
+  }
+
+  if(isIpaDownloadNeeded){
+    $('#isUpgradeNeeded').css('display','block');
+    $('#isDownloadNeeded').css('display','none');
+  }else{
+    $('#isUpgradeNeeded').css('display','none');
+    $('#isDownloadNeeded').css('display','block');
+  }
+// $('#isUpgradeNeeded').click(function(){
+// // alert('Upgrade Clicked');
+// });
+// $('#isDownloadNeeded').click(function(){
+// // alert('Download Clicked');
+// });
+
+});
+
+function operatingSytem() {
+            var OSName="Unknown OS";
+            
+            if (navigator.appVersion.indexOf("Win")!=-1) OSName="Windows";
+            if (navigator.appVersion.indexOf("Mac")!=-1) OSName="Mac";
+            if (navigator.appVersion.indexOf("X11")!=-1) OSName="UNIX";
+            if (navigator.appVersion.indexOf("Linux")!=-1) OSName="Linux";
+             if (navigator.appVersion.indexOf("Android")>-1) OSName="Android";
+            if (navigator.appVersion.indexOf("iPhone")!=-1 || navigator.appVersion.indexOf("iPad")!=-1 || navigator.appVersion.indexOf("iPod")!=-1) OSName="iOS";
+            // Display the OS name
+            debugger;  
+            document.getElementById("OS").innerHTML = OSName;
+        }
+        operatingSytem();
+
+
+
+</script>
